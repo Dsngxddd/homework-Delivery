@@ -1,0 +1,42 @@
+.video-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-item {
+    margin-bottom: 20px;
+    text-align: center;
+}
+/* Stil dosyası - styles.css */
+
+/* Genel stil */
+body {
+    font-family: Arial, sans-serif; /* Varsayılan font */
+    background-color: #f2f2f2; /* Arka plan rengi */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333; /* Üst bölge arka plan rengi */
+    color: white; /* Üst bölge metin rengi */
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Başlık fontu */
+    font-size: 36px; /* Başlık boyutu */
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333; /* Alt bölge arka plan rengi */
+    color: white; /* Alt bölge metin rengi */
+}
